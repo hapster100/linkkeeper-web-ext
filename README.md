@@ -16,8 +16,10 @@ On extension page you can:
 
 ## Screenshots
 
-![Context menu](/screenshots/context-menu.png)
-![Extension page](/screenshots/ext-page.png)
+Context menu items
 
+<img src="/screenshots/context-menu.png" alt="Context menu" width="500"/>
 
+Links page
 
+<img src="/screenshots/ext-page.png" alt="Extension page" width="500"/>
