@@ -1,0 +1,116 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#root {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+ul {
+    padding: 0 20px;
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4px;
+    padding: 4px;
+    border-bottom: 1px solid black;
+}
+
+a {
+    transition: all 0.2s;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+a:hover {
+    font-size: 16px;
+}
+
+button {
+    border: 0;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 4px 8px;
+}
+
+.remove {
+    background-color: rgb(200, 20, 10);
+    color: white;
+    font-weight: bold;
+    height: 30px;
+    text-transform: uppercase;
+}
+
+.remove:hover {
+    background-color: rgb(160, 20, 10);
+}
+
+.remove-all {
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    margin-bottom: 40px;
+    height: 40px;
+    width: 120px;
+}
+
+.settings {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.9);
+    padding: 12px 20px;
+    padding-bottom: 4px;
+    border-top-left-radius: 20px;
+}
+
+.toggle-btn-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.toggle-btn-box {
+    box-sizing: content-box;
+    width: 40px;
+    height: 20px;
+    border: 2.5px solid white;
+    padding: 4px;
+    border-radius: 20px;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+
+.toggle-btn-circle {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.toggle-btn-circle-on {
+    margin-right: 0;
+    margin-left: auto;
+    background-color: white;
+}
+
+.toggle-btn-title {
+    color: white;
+}
