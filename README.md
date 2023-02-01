@@ -12,7 +12,7 @@ On extension page you can:
 - set link to open in new tab or current
 - set auto remove link on click
 
-[Firefox add-on page](https://addons.mozilla.org/en-US/firefox/addon/linkkeeper/)
+[Firefox add-on page](https://addons.mozilla.org/firefox/addon/linkkeeper/)
 
 ## Screenshots
 
